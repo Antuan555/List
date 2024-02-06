@@ -1,0 +1,47 @@
+{
+  "name": "prototype-site",
+  "version": "1.0.0",
+  "description": "prototype №1",
+  "type": "module",
+  "main": "index.js",
+  "Js": {
+    "test": "Js/index.js",
+    "Brain-even": "Js/brain-even"
+  },
+  "scripts": {
+    "test": "node Js/Index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Antuan555/List.git"
+  },
+  "keywords": [
+    "Shutnica55"
+  ],
+  "author": "Anton Yaroshevskii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antuan555/List/issues"
+  },
+  "homepage": "https://github.com/Antuan555/List#readme",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslist": "^1.0.0-beta.1",
+    "lodash": "^4.17.21",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "htmlhint": "^1.1.4",
+    "prettier": "3.2.4",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}
